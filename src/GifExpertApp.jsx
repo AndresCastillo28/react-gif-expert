@@ -22,7 +22,6 @@ export const GifExpertApp = () => {
 
         <AddCategory 
           onNewCategory={ (value) => onAddCategory(value) }
-          currentCategories={ categories }
         />
 
         { 
